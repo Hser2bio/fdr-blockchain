@@ -135,14 +135,14 @@ public:
         assert(hashGenesisBlock == uint256("000004cd47fe736ef70d94b35fe7a7dae8338138efe5cda2a2869532a69f17cb"));
 
         //vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("173.212.254.74", "173.212.254.74"));
-        vSeeds.push_back(CDNSSeedData("167.86.93.65", "167.86.93.65"));
-        vSeeds.push_back(CDNSSeedData("167.86.119.223", "167.86.119.223"));
-        vSeeds.push_back(CDNSSeedData("164.68.96.160", "164.68.96.160"));
-        vSeeds.push_back(CDNSSeedData("167.86.124.134", "167.86.124.134"));
-        vSeeds.push_back(CDNSSeedData("167.86.105.162", "167.86.105.162"));
-        vSeeds.push_back(CDNSSeedData("167.86.114.163", "167.86.114.163"));
-        vSeeds.push_back(CDNSSeedData("167.86.93.67", "167.86.93.67"));
+        vSeeds.push_back(CDNSSeedData("207.180.234.206", "207.180.234.206"));
+        vSeeds.push_back(CDNSSeedData("207.180.235.144", "207.180.235.144"));
+        vSeeds.push_back(CDNSSeedData("5.189.166.55", "5.189.166.55"));
+        //vSeeds.push_back(CDNSSeedData("164.68.96.160", "164.68.96.160"));
+        //vSeeds.push_back(CDNSSeedData("167.86.124.134", "167.86.124.134"));
+        //vSeeds.push_back(CDNSSeedData("167.86.105.162", "167.86.105.162"));
+        //vSeeds.push_back(CDNSSeedData("167.86.114.163", "167.86.114.163"));
+        //vSeeds.push_back(CDNSSeedData("167.86.93.67", "167.86.93.67"));
         vSeeds.push_back(CDNSSeedData("seed.fdreserve.com", "seed.fdreserve.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 95); // f
